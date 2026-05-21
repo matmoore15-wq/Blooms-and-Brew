@@ -1,16 +1,16 @@
 {
-  "hero_description": "Blooms and Brew is a cozy coffee shop in Corpus Christi, TX, serving handcrafted drinks alongside fresh flowers and curated bouquets. Stop in for your daily coffee, find the perfect blooms, and enjoy a welcoming space designed to brighten your day.",
+  "hours_sunday": "Closed",
+  "facebook": "https://www.facebook.com/p/Blooms-Brew-CC-61581939380090/",
+  "hours_saturday": "8:00 am – 4:00 pm",
+  "hours_thu_fri": "7:00 am – 5:00 pm",
+  "address_line1": "922 Yorktown Blvd #112",
+  "instagram": "https://www.instagram.com/blooms_brewcc/",
+  "hours_mon_wed": "7:00 am – 2:00 pm",
+  "address_line2": "Corpus Christi, TX 78414",
+  "feature2_desc": "Every week our café is dressed with fresh arrangements sourced from local Texas flower growers — seasonal, fragrant, and beautifully alive.",
   "feature1_title": "Specialty Coffee",
   "feature1_desc": "We roast in small batches and dial every espresso shot by hand. From our Corpus Blend to single-origins, each cup is crafted to be memorable.",
   "feature2_title": "Fresh Florals Daily",
-  "feature2_desc": "Every week our café is dressed with fresh arrangements sourced from local Texas flower growers — seasonal, fragrant, and beautifully alive.",
   "gallery_heading": "A place to slow down & breathe",
-  "address_line1": "922 Yorktown Blvd #112",
-  "address_line2": "Corpus Christi, TX 78414",
-  "hours_mon_wed": "7:00 am – 2:00 pm",
-  "hours_thu_fri": "7:00 am – 5:00 pm",
-  "hours_saturday": "8:00 am – 4:00 pm",
-  "hours_sunday": "Closed",
-  "instagram": "https://www.instagram.com/blooms_brewcc/",
-  "facebook": "https://www.facebook.com/p/Blooms-Brew-CC-61581939380090/"
+  "hero_description": "Blooms and Brew is a coffee shop in Corpus Christi, TX, serving handcrafted drinks alongside fresh flowers and curated bouquets. Stop in for your daily coffee, find the perfect blooms, and enjoy a welcoming space designed to brighten your day."
 }
