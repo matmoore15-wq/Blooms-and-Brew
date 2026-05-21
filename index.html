@@ -904,8 +904,8 @@
         <path d="M22 12c0-2 1.5-2 1.5-4"/>
         <path d="M27 12c0-2 1.5-2 1.5-4"/>
       </svg>
-      <div class="feature-title">Specialty Coffee</div>
-      <p class="feature-desc">We roast in small batches and dial every espresso shot by hand. From our Corpus Blend to single-origins, each cup is crafted to be memorable.</p>
+      <div class="feature-title" id="feature1-title">Specialty Coffee</div>
+      <p class="feature-desc" id="feature1-desc">We roast in small batches and dial every espresso shot by hand. From our Corpus Blend to single-origins, each cup is crafted to be memorable.</p>
     </div>
     <div class="feature-item reveal rd1">
       <svg class="feature-icon" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
@@ -917,8 +917,8 @@
         <ellipse cx="22" cy="11" rx="3.5" ry="7" transform="rotate(300 22 22)"/>
         <circle cx="22" cy="22" r="4"/>
       </svg>
-      <div class="feature-title">Fresh Florals Daily</div>
-      <p class="feature-desc">Every week our café is dressed with fresh arrangements sourced from local Texas flower growers — seasonal, fragrant, and beautifully alive.</p>
+      <div class="feature-title" id="feature2-title">Fresh Florals Daily</div>
+      <p class="feature-desc" id="feature2-desc">Every week our café is dressed with fresh arrangements sourced from local Texas flower growers — seasonal, fragrant, and beautifully alive.</p>
     </div>
   </div>
 
@@ -1105,7 +1105,7 @@
     <div class="gallery-header">
       <div>
         <span class="label-chip reveal">The Space</span>
-        <h2 class="reveal rd1">A place to slow<br>down & breathe</h2>
+        <h2 class="reveal rd1" id="gallery-heading">A place to slow down & breathe</h2>
       </div>
     </div>
 
@@ -1288,6 +1288,11 @@
         const set = (id, val) => { const el = document.getElementById(id); if (el && val) el.textContent = val; };
         const href = (id, val) => { const el = document.getElementById(id); if (el && val) el.href = val; };
         set('hero-description', d.hero_description);
+        set('feature1-title', d.feature1_title);
+        set('feature1-desc', d.feature1_desc);
+        set('feature2-title', d.feature2_title);
+        set('feature2-desc', d.feature2_desc);
+        set('gallery-heading', d.gallery_heading);
         set('address-line1', d.address_line1);
         set('address-line2', d.address_line2);
         set('hours-mon-wed', d.hours_mon_wed);
