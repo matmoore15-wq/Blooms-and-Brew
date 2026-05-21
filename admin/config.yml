@@ -1,0 +1,58 @@
+backend:
+  name: github
+  repo: GITHUB_USERNAME/blooms-and-brew
+  branch: main
+  base_url: https://blooms-and-brew.vercel.app
+  auth_endpoint: api/auth
+
+media_folder: brand_assets
+public_folder: /brand_assets
+
+collections:
+  - name: site
+    label: Site Content
+    files:
+      - name: settings
+        label: Settings
+        file: content/site.json
+        fields:
+          - label: Hero Description
+            name: hero_description
+            widget: text
+            hint: The main description shown on the homepage hero section
+
+          - label: Address Line 1
+            name: address_line1
+            widget: string
+            hint: e.g. 922 Yorktown Blvd #112
+
+          - label: Address Line 2
+            name: address_line2
+            widget: string
+            hint: e.g. Corpus Christi, TX 78414
+
+          - label: Hours — Mon to Wed
+            name: hours_mon_wed
+            widget: string
+            hint: e.g. 7:00 am – 2:00 pm
+
+          - label: Hours — Thu to Fri
+            name: hours_thu_fri
+            widget: string
+
+          - label: Hours — Saturday
+            name: hours_saturday
+            widget: string
+
+          - label: Hours — Sunday
+            name: hours_sunday
+            widget: string
+            hint: Use "Closed" if closed
+
+          - label: Instagram URL
+            name: instagram
+            widget: string
+
+          - label: Facebook URL
+            name: facebook
+            widget: string
