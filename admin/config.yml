@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: GITHUB_USERNAME/blooms-and-brew
+  repo: matmoore15-wq/blooms-and-brew
   branch: main
   base_url: https://blooms-and-brew.vercel.app
   auth_endpoint: api/auth
